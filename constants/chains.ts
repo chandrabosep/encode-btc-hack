@@ -19,23 +19,3 @@ export const rootstackTestnetChain = defineChain({
     },
   },
 });
-
-export const bobSeploiaChain = defineChain({
-  id: 808813,
-  testnet: true,
-  name: "Bob Seploia",
-  nativeCurrency: {
-    name: "Bob Seploia",
-    symbol: "ETH",
-    decimals: 18,
-  },
-  rpcUrls: {
-    default: { http: ["https://bob-sepolia.rpc.gobob.xyz/"] },
-  },
-  blockExplorers: {
-    default: {
-      name: "Bob Seploia explorer",
-      url: "https://bob-sepolia.explorer.gobob.xyz/",
-    },
-  },
-});
