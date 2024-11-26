@@ -95,8 +95,8 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({
         <Activity className="w-4 h-4 text-zinc-400" />
       </CardHeader>
       <CardContent>
-        <div className="text-2xl font-bold text-white">12</div>
-        <p className="text-xs text-zinc-400">Across 4 protocols</p>
+        <div className="text-2xl font-bold text-white">0</div>
+        <p className="text-xs text-zinc-400">Across 0 protocols</p>
       </CardContent>
     </Card>
 
@@ -108,8 +108,8 @@ const DashboardHeader: React.FC<DashboardHeaderProps> = ({
         <Coins className="w-4 h-4 text-zinc-400" />
       </CardHeader>
       <CardContent>
-        <div className="text-2xl font-bold text-white">$1.04</div>
-        <p className="text-xs text-green-500">+5.23% APY</p>
+        <div className="text-2xl font-bold text-white">$0.00</div>
+        <p className="text-xs text-green-500">+0.1% APY</p>
       </CardContent>
     </Card>
   </div>
